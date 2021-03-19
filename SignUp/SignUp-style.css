@@ -1,0 +1,123 @@
+body
+    {
+        margin: 0;
+        padding: 0;
+        background: url(../resources/SignUp-image.jpg) no-repeat;
+        /* background-size: cover; */
+        background-position: center;
+        height: 100vh;
+        font-family: 'Pacifico', cursive;
+    }
+
+button
+    {
+        margin: 10px 0 0 20px;
+        background-color: #fb2525;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        height: 40px;
+        width: 80px;
+        font-family: Impact;
+        font-size: 22px;
+        text-decoration: none;
+        color: white;
+    }
+
+button:hover
+    {
+        background: darkred;
+        color: palegoldenrod;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+.reg
+    {
+        border-radius: 15px 15px 0 0;
+        width: 900px;
+        margin: -108px 0 0 225px;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 10px 0 11px 0;
+        font-family: 'Pacifico', cursive;
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+    }
+
+#form
+    {
+        top: 61%;   left: 50%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+        border-color: black;
+        margin: 0;
+        padding: 20px 20px 0 20px;
+        height: 560px;
+        width: 900px;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-family: sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+#form input
+    {
+        margin-bottom: 30px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid white;
+        width: 25%;
+        height: 20px;
+        background: transparent;
+        color: white;
+        font-size: 16px;
+        position: relative;
+    }
+
+.f_name input[type="text"]
+    {
+        left: 10px;
+    }
+
+.mail input[type="email"]
+    {
+        left: 58px;
+    }
+.name input[type="text"]
+    {
+        left: 18px;
+    }
+
+.l_name
+    {
+        padding-left: 63px;
+    }
+
+.dob
+    {
+        padding-left: 111px;
+    }
+
+.pas
+    {
+        padding-left: 70px;
+    }
+
+.l_name input[type="text"]
+    {
+        left: 29px;
+    }
+.dob input[type="date"]
+    {
+        left: 10px;
+    }
+
+.pas input[type="password"]
+    {
+        left: 37px;
+    }
+

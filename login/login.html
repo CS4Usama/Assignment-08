@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login-style.css" type="text/css">
+    <link rel="icon" href="../resources/logo.png" type="image/png">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico"> -->
+</head>
+<body>
+    <!--Link to go back Home Page-->
+    <a href="../index.html"> <img src="../resources/logo.png" alt="Home" title="Home"> </a>
+
+    <!--Login Table Info Start-->
+    <fieldset id="form">
+        <legend>Login Here</legend>
+        <form>
+            <div>
+                <label for="name">Username:</label>
+                <input type="text" id="name" name="Username" size="20" maxlength="50" placeholder="Enter Your Username" required>
+            </div>
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" name="Password" size="20" maxlength="20" placeholder="Enter Your Password" required>
+            </div>
+            <input type="submit" value="Login">
+
+            <a class="link" href="#">Forgotten Password</a>
+                <br>
+            <a class="link" href="../SignUp/sign_up.html">Don't have account? Click Here</a>
+        </form>
+    </fieldset>
+    <!--Login Table Info End-->
+</body>
+</html>

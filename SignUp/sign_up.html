@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="SignUp-style.css" type="text/css">
+    <link rel="icon" href="../resources/logo.png" type="image/png">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico"> -->
+</head>
+<body>
+    <!--Link to go back Home Page-->
+    <span>
+    <a href="../index.html"> <img src="../resources/logo.png" alt="Home" title="Home"> </a> </span>
+
+    <p class="reg">Sign Up Here</p>
+
+    <!--Sign Up Form-->
+        <form id="form">
+            <span class="f_name">
+                First Name: <input type="text" name="First Name" size="20" maxlength="25" placeholder="Enter Your First Name" required>
+            </span>
+            <span class="l_name">
+                Last Name: <input type="text" name="Last Name" size="20" maxlength="25" placeholder="Enter Your Last Name">
+            </span>
+                    <br>
+            <span class="mail">
+                E-Mail: <input type="email" name="E-Mail" size="20" maxlength="50" placeholder="Enter Your E-Mail" required>
+            </span>
+            <span class="dob">
+                Date of Birth: <input type="date" name="Date" required>
+            </span>
+            <div>
+            <span class="name">
+                Username: <input type="text" name="Username" size="20" maxlength="50" placeholder="Enter Your Username" required>
+            </span>
+            <span class="pas">
+                Password: <input type="password" name="Password" size="20" maxlength="20" placeholder="Enter Your Password" required>
+            </span> 
+                    <br>
+            <span>
+                Select Your City:
+                <select name="City">
+                    <option value="Gojra">Gojra</option>
+                    <option value="Faisalabad">Faisalabad</option>
+                    <option value="Toba Tek Singh">Toba Tek Singh</option>
+                    <option value="Lahore">Lahore</option>
+                    <option value="Karachi">Karachi</option>
+                    <option value="Islamabad">Islamabad</option>
+                    <option value="Peshawar">Peshawar</option>
+                    <option value="Multan">Multan</option>
+                    <option value="Quetta">Quetta</option>
+                </select>
+            </span>
+            <span class="gender">
+                Gender: <input type="radio" name="Gender" id="Male" value="Male">
+                            <!-- <label for="Male">Male</label> -->
+                        <input type="radio" name="Gender" id="Female" value="Female" required>
+                            <!-- <label for="Female">Female</label> -->
+            </span>
+            <div>
+                <textarea name="Hobby" cols="25" rows="4">Enter Your Hobbies</textarea>
+            </div>
+            <div>
+                Select Your Favorite Food:  <br>
+                        <input type="checkbox" name="Favorite Food" id="Pizza" value="Pizza">
+                            <label for="Pizza">Pizza</label>
+                        <input type="checkbox" name="Favorite Food" id="Burger" value="Burger">
+                            <label for="Burger">Burger</label>
+                        <input type="checkbox" name="Favorite Food" id="Biryani" value="Biryani">
+                            <label for="Biryani">Biryani</label>
+            </div>
+            <div>
+                    
+            </div>
+            <div>
+                Upload Your Picture: <input type="file" name="Image" accept="image/*">
+            </div>
+            <input type="submit" value="Sign Up">
+        </form>
+</body>
+</html>

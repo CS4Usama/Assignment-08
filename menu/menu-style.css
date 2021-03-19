@@ -1,0 +1,50 @@
+body
+    {
+        margin: 0;
+        padding: 0;
+        background: url(../resources/home-image.png) no-repeat;
+        background-size: cover;
+        /* background-position: center; */
+        height: 90vh;
+        font-family: 'Pacifico', cursive;
+    }
+
+h1
+    {
+        color:wheat;
+        font-size: 70px;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        margin-bottom: 90px;
+    }
+
+.head
+    {
+        text-decoration: none;
+    }
+
+ul
+    {
+        font-size: 32px;
+        color: blue;
+        padding-left: 70px;
+        list-style-type: disc;
+    }
+
+li>a
+    {
+        text-decoration: none;
+        color: blue;
+        text-shadow: 2px 3px 3px white;
+        list-style-type: disc;
+    }
+
+li>a:hover
+    {
+        line-height: 100px;
+        font-size: 135%;
+        color: darkblue;
+        transition: 1s;
+    }

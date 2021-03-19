@@ -1,0 +1,102 @@
+body
+    {
+        margin: 0;
+        padding: 0;
+        background: url(../resources/login-image.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        font-family: 'Pacifico', cursive;
+    }
+
+button
+    {
+        margin: 10px 0 0 20px;
+        background-color: #fb2525;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        height: 40px;
+        width: 80px;
+        font-family: Impact;
+        font-size: 22px;
+        text-decoration: none;
+        color: white;
+    }
+
+button:hover
+    {
+        background: darkred;
+        color: palegoldenrod;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+#form
+    {
+        top: 50%;   left: 50%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+        border-color: black;
+        margin: 0;
+        padding-top: 25px;
+        height: 430px;
+        width: 320px;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+#form legend
+    {
+        padding-bottom: 8px;
+    }
+
+#form input[type="text"], input[type="password"]
+    {
+        margin-bottom: 20px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid white;
+        width: 100%;
+        height: 40px;
+        background: transparent;
+        color: white;
+        font-size: 16px;
+    }
+
+#form input[type="submit"]
+    {
+        margin-bottom: 25px;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        height: 40px;
+        width: 100%;
+        background: #fb2525;
+        color: white;
+        font-family: 'Pacifico', cursive;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+#form input[type="submit"]:hover
+    {
+        background: red;
+        color: #000;
+        cursor: pointer;
+    }
+.link
+    {
+        line-height: 10px;
+        font-size: 14px;
+        color: darkgrey;
+        text-decoration: none;
+    }
+
+.link:hover
+    {
+        color: #ffc107;
+    }
